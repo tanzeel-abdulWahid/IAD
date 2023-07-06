@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .iconStyle {
+      @apply text-4xl text-lightGreen;
+    }
+    .iconStyleLg {
+        @apply text-6xl text-lightGreen;
+      }
+    .textHeading {
+      @apply text-3xl md:text-5xl font-bold text-[#4673B8];
+    }
+    .textDesc{
+      @apply text-center p-2 md:text-2xl font-thin text-[#10213C];
+    }
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../Poppins-Regular.ttf") format('truetype');
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #bed8ff 0.89%,
+    #89a9da 17.23%,
+    #7c9ac8 42.04%,
+    #5e79a1 55.12%,
+    #507bbb 71.54%,
+    #4673B8 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    147.81deg,
+    #2a2c31 -43.27%,
+    #ffffff -21.24%,
+    #8eb4ed 12.19%,
+    #d0e0f8 29.82%,
+    #92b7ee 51.94%,
+    #889cb9 90.29%
+  );
+}

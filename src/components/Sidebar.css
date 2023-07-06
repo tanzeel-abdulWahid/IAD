@@ -1,0 +1,30 @@
+/* MyComponent.css */
+.ant-menu-item-selected {
+    background-color: #4673B8 !important;
+    color: white !important;
+  }
+
+  .ant-layout-sider-zero-width-trigger  {
+    background-color: #4673B8 !important;
+    position: absolute !important;
+    top: 2rem !important;
+  }
+  
+  .ant-layout-sider-open + .ant-layout-content {
+    transform: translateX(200px); /* Adjust the value of 200px based on your sidebar width */
+    overflow-x: hidden;
+  }
+
+  /* .content-translated {
+  transform: translateX(200px); 
+  overflow-x: hidden;
+} */
+
+/* .ant-popover{
+  left: 264px !important;
+} */
+
+.ant-btn-primary{
+  background-color: #4673B8 !important;
+}
+
